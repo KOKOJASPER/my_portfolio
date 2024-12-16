@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-family: poppins;
+}
+/********************* header *********************/
+header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  /* gap: 200px; */
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 1px 1px 0px #0000001f;
+  position: sticky;
+  top: 0%;
+  z-index: 1000;
+}
+nav,
+ul,
+li,
+a {
+  /* background-color: #ffffff; */
+  display: flex;
+  text-decoration: none;
+  color: black;
+  gap: 50px;
+  list-style: none;
+}
+.Awesome {
+  height: 150px;
+  width: 100%;
+  background-color: #edf7fa;
+}
+.Awesome h3 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 200px;
+  padding-top: 85px;
+}
+/***************** .section-3 *****************/
+.section-3 {
+  padding-top: 35px;
+  display: flex;
+  padding-left: 200px;
+  gap: 50px;
+}
+.section-3 .projects_img-1 div {
+  padding-bottom: 50px;
+  box-shadow: 0px 8px 16px 0px #00000014;
+  margin-bottom: 50px;
+}
+/***************** .section-4 *****************/
+.section_4 {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #ea1d5d;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+.section_4 h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+}
+.section_4 input {
+  background-color: #ea1d5d;
+  width: 220px;
+  height: 35px;
+  position: relative;
+  right: 20px;
+  top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 15;
+}
+.section_4 button {
+  background-color: #ea1d5d;
+  color: white;
+  /* border: 1.5px solid white; */
+  height: 36px;
+  width: 125px;
+  position: relative;
+  top: 9px;
+  right: 10px;
+}
+/***************** footer *****************/
+.footer {
+  padding-top: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #21243d;
+  color: white;
+  font-weight: 400;
+}
+.footer li {
+  color: white;
+}
+.icons_1 {
+  justify-items: end;
+}

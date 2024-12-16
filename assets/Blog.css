@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-family: poppins;
+}
+/********************* header *********************/
+header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  /* gap: 200px; */
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 1px 1px 0px #0000001f;
+  position: sticky;
+  top: 0%;
+  z-index: 1000;
+}
+nav,
+ul,
+li,
+a {
+  /* background-color: #ffffff; */
+  display: flex;
+  text-decoration: none;
+  color: black;
+  gap: 50px;
+  list-style: none;
+}
+.News {
+  height: 150px;
+  width: 100%;
+  background-color: #edf7fa;
+}
+.News h3 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 220px;
+  padding-top: 85px;
+}
+.Creativity {
+  margin-top: 25px;
+  color: #edf7fa;
+  height: 350px;
+  width: 65%;
+  margin-left: 220px;
+  padding-left: 20px;
+  background: url(./card/news\ super\ big.png);
+}
+.Beauty {
+  position: relative;
+  top: 200px;
+}
+.Creativity h5 h3 p {
+  position: relative;
+  top: 500px;
+}
+/********* section **********/
+.figure_1 {
+  padding-left: 220px;
+  margin-top: 25px;
+}
+.figure_2 {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.figure_3 {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.figure_4 {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.figure_1 h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+.figure_1 h5 {
+  font-weight: 300;
+}
+.figure_1 p {
+  font-size: 12px;
+}
+/***************** .section-4 *****************/
+.section_4 {
+  width: 80%;
+  margin-left: 10%;
+  background-color: hsl(341, 83%, 52%);
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.section_4 h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+}
+.section_4 input {
+  background-color: #ea1d5d;
+  width: 220px;
+  height: 35px;
+  position: relative;
+  right: 20px;
+  top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 15;
+}
+.section_4 button {
+  background-color: #ea1d5d;
+  color: white;
+  /* border: 1.5px solid white; */
+  height: 36px;
+  width: 125px;
+  position: relative;
+  top: 9px;
+  right: 10px;
+}
+/***************** footer *****************/
+.footer {
+  padding-top: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #21243d;
+  color: white;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.footer li {
+  color: white;
+}
